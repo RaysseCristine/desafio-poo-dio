@@ -10,8 +10,7 @@ public class Mentoria extends Conteudo {
 	@Override
 	public double calcularXP() {
 		return XP_PADRAO + 20d;
-	}
-	
+	}	
 	
 	public Mentoria() {
 		super();
@@ -20,12 +19,15 @@ public class Mentoria extends Conteudo {
 	public int getCargaHoraria() {
 		return cargaHoraria;
 	}
+	
 	public void setCargaHoraria(int cargaHoraria) {
 		this.cargaHoraria = cargaHoraria;
 	}
+	
 	public LocalDate getData() {
 		return data;
 	}
+	
 	public void setData(LocalDate data) {
 		this.data = data;
 	}
@@ -38,8 +40,4 @@ public class Mentoria extends Conteudo {
 				", data=" + data +
 				"}";
 	}
-
-	
-	
-	
 }
